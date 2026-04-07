@@ -106,6 +106,7 @@
   recipeUnlocks:
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
+  - WallmountMassScannerElectronics # Goob - Starlight port
   # Goobstation R&D Console rework start
   position: 0,-3
   technologyPrerequisites:

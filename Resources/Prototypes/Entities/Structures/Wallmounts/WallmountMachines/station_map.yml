@@ -127,6 +127,7 @@
           assembly: { state: station_map_frame0 }
           wired: { state: station_map_frame1 }
           electronics: { state: station_map_frame2 }
+          scanner_electronics: { state: station_map_frame2 } # Goob - Starlight wallmount mass scanner port
   - type: Construction
     graph: StationMap
     node: assembly
