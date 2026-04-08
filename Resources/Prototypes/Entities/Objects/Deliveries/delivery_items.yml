@@ -1,0 +1,11 @@
+### Spam Mail
+
+- type: entity
+  id: MailJunkSpamLetter # Goob: rename MailSpamLetter prototype cuz conflict
+  name: spam letter
+  description: Even space isn't safe from junk mail.
+  parent: Paper
+  components:
+  - type: Paper
+  - type: RandomPaperContent
+    dataset: DeliverySpamLetters

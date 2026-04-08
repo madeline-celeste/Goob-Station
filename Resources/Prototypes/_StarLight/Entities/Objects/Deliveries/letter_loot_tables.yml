@@ -1,7 +1,18 @@
 # all the letters here should have a `AntagOnSign` component of some sort so that when they are signed it can antag them
 
-- type: entityTable
-  id: MailAntagSpamLetter
-  table: !type:GroupSelector
-    children:
-      - id: MailSyndicateSpamLetter
+- type: entity
+  parent: BaseMail
+  id: MailSpamLetter
+  suffix: SpamLetter
+  components:
+  - type: Mail
+    contents:
+    - id: MailJunkSpamLetter
+      prob: 0.90
+      orGroup: SpamLetter
+    - id: MailTraitorSpamLetter
+      prob: 0.05
+      orGroup: SpamLetter
+    - id: MailThiefSpamLetter
+      prob: 0.05
+      orGroup: SpamLetter

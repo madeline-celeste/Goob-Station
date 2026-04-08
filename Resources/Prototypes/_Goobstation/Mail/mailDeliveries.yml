@@ -25,6 +25,7 @@
     MailJoints: 1
     MailUnusualFood: 0.5
     MailBakedGoods: 0.75
+    MailSpamLetter: 1
   # Costumes
     MailCosplayMaid: 0.6
     MailCosplayWizard: 0.6
